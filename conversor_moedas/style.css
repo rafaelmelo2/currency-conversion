@@ -1,0 +1,102 @@
+/*<img src="https://cdn-icons-png.flaticon.com/512/3037/3037150.png" alt="dolar_img" width="40px">
+*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+input{
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    
+}
+
+p{
+    padding: 10px;
+}
+
+.bandeiras{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+
+.bandeiras li{
+    padding: 0px 0 0 0;
+    margin: 0;
+}
+
+
+
+
+.container {
+    text-align: center;
+    padding: 10px;  
+}
+
+.conversores{
+    display: inline-block;
+}
+
+.dolar{
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    width:700px auto;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(0, 100, 0);
+    margin-bottom: 5px;
+    transition: 1s all ease;
+}
+
+.dolar:hover{
+    background-color: rgb(20, 174, 20);
+    width:auto;
+    transform:scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.euro{
+    border: 2px solid white;
+    border-radius: 10px;
+    display:flex;
+    width: 700px auto;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(0, 100, 0);
+    margin-bottom: 5px;
+    transition: 1s all ease;
+}
+
+.euro:hover{
+    background-color: rgb(20, 174, 20);
+    width: auto;
+    transform:scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
